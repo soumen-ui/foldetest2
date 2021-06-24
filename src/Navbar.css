@@ -1,0 +1,41 @@
+.dwr {
+  background: transparent;
+  background: #0c0116;
+}
+
+.dwr .cunavbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  z-index: 9999999;
+  top: 0px;
+  /* width: 100%; */
+  right: 0;
+}
+.dwr .cunavbar-nav .MuiListItem-root {
+  width: inherit;
+}
+
+nav .MuiDrawer-paper {
+  height: inherit;
+  background: transparent;
+}
+.navbar-dark .cunavbar-nav .myactive .nav-link {
+  color: #0ff;
+}
+.myactive.nav-link {
+  border-bottom: #61dafb 2px solid;
+  color: rgb(43, 226, 195) !important;
+}
+
+@media (max-width: 580px) {
+  .dwr .cunavbar-nav {
+    padding: 0px;
+    flex-flow: column;
+    position: inherit;
+    width: 100%;
+  }
+  .dwr {
+    background: transparent;
+  }
+}

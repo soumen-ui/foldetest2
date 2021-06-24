@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.dwr {
+  display: flex;
+}
+.cunavbar-nav .nav-link {
+  color: #7429ff;
+}
+.myactive.nav-link {
+  border-bottom: #db5660 2px solid;
+  color: #db5660 !important;
+}
+
+.my_grid {
+  width: 30%;
+  display: inline-block;
+}
+
+.makeStyles-root-5 {
+  display: inherit !important;
+  height: 64px;
+}
+
+.res_img {
+  width: 100%;
+}
+.slicbox {
+  background: green;
+}
+/* .tpslicbox  */
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 50px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tpslicbox .slick-prev,
+.tpslicbox .slick-next {
+  z-index: 1;
+}
+
+.tpslicbox .slick-prev {
+  left: 36px;
+}
+
+.tpslicbox .slick-next {
+  right: 36px;
+}
+
+.tpslicbox .slick-prev:before,
+.tpslicbox .slick-next:before {
+  color: #09d04b;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #e211bf;
+}
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 50px;
+  line-height: 31px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.9;
+  color: #0c0116;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tpslicbox .slick-dots {
+  position: absolute;
+  bottom: inherit;
+  display: block;
+  width: inherit;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  right: 0;
+  top: 25%;
+}
+.tpslicbox .slick-dots li {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 32px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.tpslicbox .slick-dots li button:before {
+  line-height: 25px;
+}
+/* &#8249;
+&#x2039; */
+.tpslicbox .slick-prev:before {
+  content: "";
+}
+
+.tpslicbox .slick-next:before {
+  content: "";
+}
+
+.rel_pos {
+  position: relative;
+}
+.abl_pos {
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+}
+
+/* h2 {
+  color: #db5660;
+}
+h3 {
+  color: #c2888d;
+} */
+
+.sldr p {
+  color: #ffffff;
+}
+.cntr_img {
+  margin: auto !important;
+  text-align: center;
+}
+.cntr_img .slick-slide img {
+  margin: auto;
+  border-radius: 50%;
+  border: 5px solid #7429ff;
+}
+.cntr_img p {
+  color: #ffffff;
+}
+
+.cntr_img .slick-prev:before {
+  content: "";
+  background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg"  fill="rgb(219 86 96)" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>');
+  padding: 15px;
+  width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+}
+
+.cntr_img .slick-next:before {
+  content: "";
+  background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" fill="rgb(219 86 96)" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg>');
+  padding: 15px;
+  width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+}
+
+.bgprpl {
+  background: #0c0116eb;
+  padding: 85px 0px;
+  margin: 130px 0px;
+}
+.logo {
+  color: #db5660;
+}
+.logo .res_img {
+  width: 8%;
+  max-width: 49px;
+  color: #7429ff;
+  z-index: 9999;
+  position: fixed;
+  margin-left: 5px;
+}
+.MuiToolbar-root {
+  justify-content: flex-end;
+}
+@media (max-width: 580px) {
+  .dwr {
+    display: inherit;
+  }
+}
